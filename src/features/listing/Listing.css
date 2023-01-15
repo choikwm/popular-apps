@@ -1,0 +1,105 @@
+.HeaderBar {
+  background-color: rgba(224, 222, 222, 0.967);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.SearchField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  width: 90vh;
+  max-width: 300px;
+}
+
+.SuggestionsSessionOuter {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  /* align-items: center;
+  justify-content: flex-start; */
+  /* margin: 10px; */
+}
+
+.SuggestionsItemOuter {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  margin: 15px;
+  width: 53px;
+}
+.SuggestedAppIconOuter {
+  width: 53px;
+  height: 53px;
+}
+
+.SuggestedAppIcon {
+  border-radius: 20%;
+}
+
+.SuggestionsIcon {
+  border-radius: 20%;
+  /* margin: 10px; */
+}
+
+.SuggestionsDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.SuggestedAppName {
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.SuggestedAppCategory {
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.FreeAppOuter {
+  background-color: rgba(224, 222, 222, 0.967);
+  /* margin-top: 10px; */
+  padding-top: 10px;
+}
+
+.ListingItemOuter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.FreeAppRanking {
+  width: 25px;
+  font-weight: 800;
+}
+
+.ListingIcon {
+  border-radius: 20%;
+  margin: 10px;
+}
+
+.ListingDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.FreeAppCategory {
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 10px;
+  margin-top: 5px;
+}
