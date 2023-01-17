@@ -41,7 +41,9 @@ const Listing: FunctionComponent = () => {
 
   const searchFreeApp =
     search.length > 0
-      ? listing.filter((item) => item["im:name"].label.includes(search))
+      ? listing.filter((item) =>
+          item["im:name"].label.toLowerCase().includes(search.toLowerCase())
+        )
       : listing;
   console.log("searchFreeApp", searchFreeApp);
 
@@ -51,7 +53,9 @@ const Listing: FunctionComponent = () => {
 
   const searchSuggestApp =
     search.length > 0
-      ? suggestions.filter((item) => item["im:name"].label.includes(search))
+      ? suggestions.filter((item) =>
+          item["im:name"].label.toLowerCase().includes(search.toLowerCase())
+        )
       : suggestions;
 
   console.log("searchSuggestApp", searchSuggestApp);
