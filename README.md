@@ -1,5 +1,12 @@
 Redesign of App Store Listing Page - React, TypeScript and Redux
 
+Summary:
+
+- Fetch data from Apple iTunes APIs (using Axios)
+- Typescript to implement type checking in project
+- Redux as state management tool to store all state at a global level
+- Search bar for filtering application names by keyword
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
